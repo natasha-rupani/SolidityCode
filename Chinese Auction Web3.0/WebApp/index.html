@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Interact with Auction Contract</h1>
+
+<button type="button" id="registerAsBidder">Register as a bidder</button>
+<br>
+<br>
+<div>
+	<label for="bidItemId">Enter the index of item to be bid upon: </label>
+	<input type="text" id="bidItemId" placeholder="0 or 1 or 3"></input>
+	<br>
+	<label for="bidTokenCount">Enter the number of tokens you want to bid: </label>
+	<input type="text" id="bidTokenCount" placeholder="number less than 5"></input>
+	<br>
+	<button type="button" id="placeBidder">Bid</button> 
+</div>
+<script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
